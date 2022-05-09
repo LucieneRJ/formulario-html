@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário Simples</title>
+</head>
+<body>
+
+  <h3>
+    <font color="0080FF" face="Verdana">Formulário Simples</font>
+  </h3>
+
+  <form action="envia.php" name="form1" method="post"></form>
+  <table width="100%" border="0" cellspacing="5">
+    <tbody>
+      <tr>
+        <td width="13%">Nome</td>
+        <td width="87%">
+          <input type="text" name="nome">
+        </td>
+      </tr>
+
+      <tr>
+        <td>E-mail</td>
+        <td>
+          <input type="text" name="email">
+        </td>
+      </tr>
+
+      <tr>
+        <td>Sexo</td>
+        <td>
+          <input type="radio" name="sexo" value="fem">Feminino
+          <input type="radio" name="sexo" value="mas">Masculino
+        </td>
+      </tr>
+
+      <tr>
+        <td>RG</td>
+        <td>
+          <input type="text" name="rg">
+        </td>
+      </tr>
+
+      <tr>
+        <td>CPF</td>
+        <td>
+          <input type="text" name="cpf">
+        </td>
+      </tr>
+
+      <tr>
+        <td>Login</td>
+        <td>
+          <input type="text" name="login" >
+        </td>
+      </tr>
+
+      <tr>
+        <td>Senha</td>
+        <td>
+          <input type="password" name="senha" >
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="submit" name="enviar" value="Enviar">
+        </td>
+        <td>
+          <input type="reset" name="limpar" value="Limpar">
+        </td>
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</body>
+</html>
